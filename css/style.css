@@ -24,6 +24,8 @@ html,body{
     height: 100%; 
     background-image: url("../img/intro-fondo.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 #intro-fondo h3{
  color: #fff;  
@@ -75,6 +77,8 @@ transform: translate(225px, -35px);
 .nosotros-imagen{
     background-image: url("../img/imagen1-qs.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .nosotros-contenedor{
     height: 100%;
