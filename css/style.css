@@ -1,104 +1,114 @@
-/*Estilos para Alkimia*/
 /*========================================
             COLORES
-
 #EFF9F0 gris
 #698996 azul
 #E9E3E6 rosa
 #91C499 verde
 #F5CB5C amarillo
 ==========================================*/
+
+
+/*=========================================
+            ESTILOS GENERALES
+==========================================*/
+
 body {
     font-family: "Quicksand", sans-serif;
 }
-html,body{
+
+html,
+body {
     height: 100%;
 }
-/*Estilo Index
+
+
+/*=========================================
+                Estilo Index
 ===========================================*/
-#index{
+
+#index {
     height: 100%;
     margin: 0px;
 }
-#intro-fondo{
-    height: 100%; 
+
+#intro-fondo {
+    height: 100%;
     background-image: url("../img/intro-fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-#intro-fondo h3{
- color: #fff;  
- font-size: 27px;
- font-weight: 400;
+
+#intro-fondo h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 400;
 }
-#intro-fondo h2{
+
+#intro-fondo h2 {
     color: #fff;
     font-size: 80px;
-    font-weight: 700; 
-}   
-#intro-aire{
+    font-weight: 700;
+}
+
+#intro-aire {
     width: 100%;
     height: 100%;
 }
-#intro-contenido{
+
+#intro-contenido {
     padding: 15% 0 0 35%;
 }
-#cuadro{
-border: solid 1px #fff;
-float: right;
-position: absolute;
-transform: translate(225px, -35px);
+
+#cuadro {
+    border: solid 1px #fff;
+    float: right;
+    position: absolute;
+    transform: translate(225px, -35px);
 }
-#cuadro-contenido{
+
+#cuadro-contenido {
     margin: 10px;
     background-color: rgba(25, 51, 0, 0.4);
     text-align: center;
     padding: 20px;
 }
-#cuadro-contenido h3{
-    margin: 0;
-}
-#cuadro-contenido h2{
+
+#cuadro-contenido h3,
+#cuadro-contenido h2 {
     margin: 0;
 }
 
-/*Estilo Nosotros
+
+/*=========================================
+            Estilo Nosotros
 ===========================================*/
-#nosotros{
-   height: 100%;
-   margin: 0;
-   padding: 0px;
-}
-#nosotros-todo{
-  height: 100%;
+
+#nosotros,
+#nosotros-todo,
+.nosotros-contenedor,
+.nosotros-imagen,
+.norotros-columna {
+    height: 100%;
 }
 
-.nosotros-imagen{
+.nosotros-imagen {
     background-image: url("../img/imagen1-qs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.nosotros-contenedor{
-    height: 100%;
-}
-.nosotros-fila-imagen{
+
+.nosotros-fila-imagen,
+.nosotros-descripciones {
     height: 50%;
 }
-.nosotros-imagen{
-    height: 100%;  
-}
-.nosotros-descripciones{
-    height: 50%; 
-}
-.norotros-columna{
-    height: 100%;
-}
-.columna-descripcion{
-    text-align:justify;
+
+.columna-descripcion {
+    text-align: justify;
     padding: 15px 25px 0px 25px;
 }
-.columna-imagen{
-    text-align:center;
+
+.columna-imagen {
+    text-align: center;
 }
