@@ -21,6 +21,10 @@ body {
     height: 100%;
 }
 
+h2,h3{
+    color: #fff;
+    margin: 0;
+}
 
 /*=========================================
                 Estilo Index
@@ -39,14 +43,12 @@ body {
     background-position: center;
 }
 
-#intro-fondo h3 {
-    color: #fff;
+#intro-fondo h3 {    
     font-size: 27px;
     font-weight: 400;
 }
 
 #intro-fondo h2 {
-    color: #fff;
     font-size: 80px;
     font-weight: 700;
 }
@@ -73,12 +75,6 @@ body {
     text-align: center;
     padding: 20px;
 }
-
-#cuadro-contenido h3,
-#cuadro-contenido h2 {
-    margin: 0;
-}
-
 
 /*=========================================
             Estilo Nosotros
