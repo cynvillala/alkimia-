@@ -27,7 +27,7 @@ html,body{
 }
 #intro-fondo h3{
  color: #fff;  
- font-size: 27px;
+ font-size: 40px;
  font-weight: 400;
 }
 #intro-fondo h2{
@@ -40,13 +40,13 @@ html,body{
     height: 100%;
 }
 #intro-contenido{
-    padding: 15% 0 0 35%;
+    padding: 21% 0 0 30%;
 }
 #cuadro{
 border: solid 1px #fff;
 float: right;
 position: absolute;
-transform: translate(225px, -35px);
+transform: translate(325px, -45px);
 }
 #cuadro-contenido{
     margin: 10px;
@@ -154,4 +154,44 @@ transform: translate(225px, -35px);
     color: #5d5d5d;
     font-weight: 400;
     font-size: 40px;
+}
+
+/*Estilo Portafolio
+===========================================*/
+#portafolio{
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+ }
+#portafolio-todo{
+  height: 100%;
+}
+#portafolio-contenedor{
+    height: 100%; 
+}   
+.portafolio-verde{
+    background-color: #daf1f3;
+}
+.verde-embedded-movile h3{
+    color: #64999b;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 170px 0px 0px 0px;
+}
+.verde-embedded-movile h2{
+    color: #86cfd7;
+    font-weight: 300;
+    font-size: 40px;
+    text-align:left;
+    margin: 0;
+}
+#potafolio-todo h6{
+    color: #5d5d5d;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 0px 0px 0px;
+    text-align:left;
+}
+.portafolio-verde-icono-1-4-7-todo{
+    padding: 200px 0px 0px 0px; 
 }
