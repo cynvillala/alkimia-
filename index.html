@@ -9,14 +9,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="shotcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 </head>
 
+
 <body>
+    <!--Seccion de menu-->
+    <header class="hidden-sm hidden-xs">
+        <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-1">
+                            <a class="navbar-brand" href="#index">
+                            <img src="img/menu-logo-top.png" title="logo">
+                            </a>
+                        </div>
+                        <div class="col-lg-7 col-md-8 text-center menu-geometria">
+                            <img class="menu-geometria-imagen" src="img/menu-geometria-top.jpg" class="text-center" title="geometria top">
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <ul class="social-list">
+                                <li><a class="social-icon" href="#"><i class="fa fa-facebook fa-1x"></i></a></li>
+                                <li><a class="social-icon" href="#"><i class="fa fa-twitter fa-1x"></i></a></li>
+                                <li><a class="social-icon" href="#"><i class="fa fa-instagram fa-1x"></i></a></li>
+                                <li><a class="social-icon" href="#"><i class="fa fa-youtube-play fa-1x"></i></a></li>
+                                <li><a class="social-icon" href="#"><i class="fa fa-whatsapp fa-1x"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <ul class="nav navbar-nav contenedor-links">
+                    <li><a href="#nosotros">Quienes Somos</a></li>
+                    <li><a href="#mision">Misión</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#internet">Internet de las Cosas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!--Seccion de inicio-->
     <section id="index">
-        <div id="intro-fondo">
+        <div id="intro-fondo" class="fondo">
             <div id="intro-aire">
                 <div id="intro-contenido">
                     <div id="texto-intro-fondo">
@@ -43,40 +84,42 @@
         <div id="nosotros-todo">
             <div class="container-fluid nosotros-contenedor">
                 <div class="row nosotros-fila-imagen">
-                    <div class="col-md-12 nosotros-imagen">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nosotros-imagen fondo">
                     </div>
                 </div>
-                <div class="row nosotros-descripciones">
-                    <div class="col-md-4 norotros-columna">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <div class="columna-descripcion">
                             <p>En
-                                <h1> ALKIMIA Mobile </h1> estamos comprometidos en desarrollar e implementar soluciones de
-                                <h2>Mobilidad+loT+Analíticas</h2> innovadoras que otorguen valor real a las empresas para optimizar
-                                el desempeño de sus organizaciones.</p>
-                        </div>
-                        <div class="columna-imagen">
-                            <img src="img/imagen2-qs.png" alt="Compromiso">
+                                <strong> ALKIMIA Mobile </strong> estamos comprometidos en desarrollar e implementar soluciones
+                                de
+                                <span class="bold-lila">Mobilidad+loT+Analíticas</span> innovadoras que otorguen valor real
+                                a las empresas para optimizar el desempeño de sus organizaciones.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 norotros-columna">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <div class="columna-descripcion">
-                            <p>Es una de las pocas empresas en México que conjuntan las capacidades necesarias para desarrollar
-                                aplicaciones
-                                <h2>Móviles+loT+Analíticas</h2> en las pricipales plataformas del mercado, aprovechando al máximo
-                                las características técnicas y funcionales de cada una de ellas.</p>
-                        </div>
-                        <div class="columna-imagen">
-                            <img src="img/imagen3-qs.png" alt="Lealtad">
+                            <p>Es una de las pocas empresas en México que conjuntan las capacidades necesarias para desarrollar e implementar aplicaciones
+                                <span class="bold-lila">Móviles+loT+Analíticas</span> en las pricipales plataformas del mercado,
+                                aprovechando al máximo las características técnicas y funcionales de cada una de ellas.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 norotros-columna">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <div class="columna-descripcion">
                             <p>También contamos con una plataforma tecnológica, que hemos desarrollado a través del tiempo,
                                 que nos permite llevar a cabo el desarrollo de aplicaciones móviles en forma acelerada.</p>
                         </div>
-                        <div class="columna-imagen">
-                            <img src="img/imagen4-qs.png" alt="Visión">
-                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-imagen">
+                        <img src="img/imagen2-qs.png" title="Compromiso">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-imagen">
+                        <img src="img/imagen3-qs.png" title="Aplicaciones IoT">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 columna-imagen">
+                        <img src="img/imagen4-qs.png" title="Plataforma tecnológica">
                     </div>
                 </div>
             </div>
@@ -87,35 +130,28 @@
     <!--Seccion de misión-->
     <section id="mision">
 
-        <div id="mision-todo">
+        <div id="mision-todo" class="fondo">
             <div class="container-fluid mision-contenedor">
-                <div class="row mision-texto-top">
-                    <div class="col-md-6 mision-texto-top">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                         <div class="columna-texto">
                             <p>
                                 <h2>En <strong> ALKIMIA Mobile </strong>basamos nuestro actuar en la transformación y combinación
                                     de las atributos de 5 elementos principales:</h2>
                             </p>
                         </div>
-
-
-                        <div class="row mision-geometria-palabras">
-                            <div class="col-md-6 geometria">
-                                <div class="columna-geometria">
-                                    <img src="img/mision-figura-geometria.png" alt="Lealtad">
-                                </div>
-                            </div>
-                            <div class="col-md-6 palabras">
-                                <div class="columna-palabras">
-                                    INNOVACIÓN <br> CREATIVIDAD <br> CONOCIMIENTO <br> PASIÓN <br> INTEGRIDAD
-                                </div>
+                        <div class="mision-izquierda-abajo">
+                            <div class="columna-geometria">
+                                <img src="img/mision-figura-geometria.png" alt="Lealtad">
                             </div>
 
+                            <div class="columna-palabras">
+                                INNOVACIÓN <br> CREATIVIDAD <br> CONOCIMIENTO <br> PASIÓN <br> INTEGRIDAD
+                            </div>
                         </div>
-
-
                     </div>
-                    <div class="col-md-6 mision-circulo-top">
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                         <div class="columna-circulo">
                             <img src="img/mision-figura-circulo.png" alt="Lealtad">
                         </div>
@@ -126,135 +162,473 @@
     </section>
 
     <!--Seccion de portafolio-->
-    <section id="potafolio">
-        <div id="potafolio-todo">
+    <section id="portafolio">
+
+        <div id="portafolio-todo">
             <div class="container-fluid portafolio-contenedor">
+                <!--Seccion de portafolio verde-->
                 <div class="row portafolio-verde">
-
                     <div class="row portafolio-verde-1">
-
-                        <div class="col-md-2 portafolio-verde-imagen-top">
+                        <!--Seccion de portafolio verde imagen AIR-->
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 portafolio-verde-imagen-top">
                             <div class="columna-verde-imagen">
                                 <img src="img/portafolio-verde-img.jpg" alt="Lealtad">
                             </div>
                         </div>
-                        <div class="col-md-1 portafolio-verde-linea-top">
-                            <div class="columna-linea-imagen">
+                        <!--Seccion de portafolio verde linea verde-->
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 portafolio-verde-linea-top">
+                            <div class="columna-linea-imagen hidden-sm hidden-xs">
                                 <img src="img/portafolio-verde-linea.jpg" alt="Lealtad">
                             </div>
                         </div>
-
-                        <div class="col-md-6 portafolio-verde-embedded-movile">
+                        <!--Seccion de portafolio verde titulo-->
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 portafolio-verde-embedded-movile">
                             <div class="row portafolio-embedded-1">
                                 <div class="verde-embedded-movile">
                                     <h3>EMBEDDED MOBILE</h3>
                                     <h2>Connecting real world to mobile</h2>
                                 </div>
                             </div>
+                            <!--Seccion de portafolio verde icono 2 y 3-->
                             <div class="row icono-2-3">
-                                <div class="col-md-6 icono-2">
-                                    <div class="col-md-3 icono-2-imagen">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 icono-2">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 icono-2-imagen">
                                         <div class="columna-2-imagen">
                                             <img src="img/portafolio-verde-icono-2.jpg" alt="Lealtad">
                                         </div>
                                     </div>
-                                    <div class="col-md-9 icono-2-texo">
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 icono-2-texo">
                                         <div class="columna-2-texto">
-                                            <h6>Mobile Point of Sale</h6>
+                                            <h5>Mobile Point of Sale</h5>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 icono-3">
-                                    <div class="col-md-3 icono-3-imagen">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 icono-3">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 icono-3-imagen">
                                         <div class="columna-3-imagen">
                                             <img src="img/portafolio-verde-icono-3.jpg" alt="Lealtad">
                                         </div>
                                     </div>
-                                    <div class="col-md-9 icono-3-texo">
+                                    <div class="col-lg-9 col-md-3 col-sm-3 col-xs-3 icono-3-texo">
                                         <div class="columna-3-texto">
-                                            <h6>Mobile sensor network</h6>
+                                            <h5>Mobile sensor network</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <!--Seccion de portafolio verde icono 5 y 6-->
                             <div class="row icono-5-6">
-                                <div class="col-md-6 icono-5">
-                                    <div class="col-md-3 icono-5-imagen">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 icono-5">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 icono-5-imagen">
                                         <div class="columna-5-imagen">
                                             <img src="img/portafolio-verde-icono-5.jpg" alt="Lealtad">
                                         </div>
                                     </div>
-                                    <div class="col-md-9 icono-5-texo">
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 icono-5-texo">
                                         <div class="columna-5-texto">
-                                            <h6>Interfacing embedded</h6>
+                                            <h5>Interfacing embedded</h5>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 icono-6">
-                                    <div class="col-md-3 icono-6-imagen">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 icono-6">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 icono-6-imagen">
                                         <div class="columna-6-imagen">
                                             <img src="img/portafolio-verde-icono-6.jpg" alt="Lealtad">
                                         </div>
                                     </div>
-                                    <div class="col-md-9 icono-6-texo">
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 icono-6-texo">
                                         <div class="columna-6-texto">
-                                            <h6>Interfacing embedded</h6>
+                                            <h5>Interfacing embedded</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-md-3 portafolio-verde-icono-1-4-7-todo">
+                        <!--Seccion de portafolio verde icono 1,4 y 7-->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 portafolio-verde-icono-1-4-7-todo">
                             <div class="row icono-1-todo">
-                                <div class="col-md-3 icono-1-imagen">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 icono-1-imagen">
                                     <div class="columna-1-imagen">
                                         <img src="img/portafolio-verde-icono-1.jpg" alt="Lealtad">
                                     </div>
                                 </div>
-                                <div class="col-md-9 icono-1-texo">
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 icono-1-texo">
                                     <div class="columna-1-texto">
-                                        <h6>Mobile healthcase</h6>
+                                        <h5>Mobile healthcase</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="row icono-4-todo">
-                                <div class="col-md-3 icono-4-imagen">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 icono-4-imagen">
                                     <div class="columna-4-imagen">
                                         <img src="img/portafolio-verde-icono-4.jpg" alt="Lealtad">
                                     </div>
                                 </div>
-                                <div class="col-md-9 icono-4-texo">
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 icono-4-texo">
                                     <div class="columna-4-texto">
-                                        <h6>Mobile access control sistem</h6>
+                                        <h5> Mobile access control system</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="row icono-7-todo">
-                                <div class="col-md-3 icono-7-imagen">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 icono-7-imagen">
                                     <div class="columna-7-imagen">
                                         <img src="img/portafolio-verde-icono-7.jpg" alt="Lealtad">
                                     </div>
                                 </div>
-                                <div class="col-md-9 icono-7-texo">
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 icono-7-texo">
                                     <div class="columna-7-texto">
-                                        <h6>Mobile sensor reader integration</h6>
+                                        <h5>Mobile sensor reader integration</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
-
-
-
                 </div>
-
-
+                <!--Seccion de portafolio morado-->
+                <div class="row portafolio-morado">
+                    <div class="row portafolio-morado-1">
+                        <!--Seccion de portafolio morado imagen linea, titulo, iconos-->
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 portafolio-morado-img-titulo-icono">
+                            <!--Seccion de portafolio morado imagen linea-->
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 portafolio-morado-linea">
+                                <div class="columna-morado-linea hidden-sm hidden-xs">
+                                    <img src="img/portafolio-morado-linea.jpg" alt="Lealtad">
+                                </div>
+                            </div>
+                            <!--Seccion de portafolio verde titulo-->
+                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 portafolio-morado-movile-cloud">
+                                <div class="row portafolio-mobile-cloud">
+                                    <div class="morado-mobile-cloud">
+                                        <h3>MOBILE AND CLOUD</h3>
+                                        <h2>Self-service, paper-less mobile enterprise solution</h2>
+                                    </div>
+                                </div>
+                                <!--Seccion de portafolio verde icono 10 y 11-->
+                                <div class="row icono-10-11">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 icono-10">
+                                        <div class="imagen-10">
+                                            <img src="img/portafolio-morado-icono-10.jpg" alt="Lealtad">
+                                        </div>
+                                        <div class="texto-10">
+                                            <h5>Mobile electric meter reading</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 icono-11">
+                                        <div class="imagen-11">
+                                            <img src="img/portafolio-morado-icono-11.jpg" alt="Lealtad">
+                                        </div>
+                                        <div class="texto-11">
+                                            <h5>Mobile order placement system</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Seccion de portafolio verde icono 14 y 15-->
+                                <div class="row icono-14-15">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 icono-14">
+                                        <div class="imagen-14">
+                                            <img src="img/portafolio-morado-icono-14.jpg" alt="Lealtad">
+                                        </div>
+                                        <div class="texto-14">
+                                            <h5>Mobile multimedia streaming</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 icono-15">
+                                        <div class="imagen-15">
+                                            <img src="img/portafolio-morado-icono-15.jpg" alt="Lealtad">
+                                        </div>
+                                        <div class="texto-15">
+                                            <h5>Mobile device management</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Seccion de portafolio morado icono 8,12 y 16-->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 portafolio-morado-icono-8-12-16">
+                            <div class="row icono-8-todo">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 icono-8-imagen">
+                                    <div class="columna-8-imagen">
+                                        <img src="img/portafolio-morado-icono-8.jpg" alt="Lealtad">
+                                    </div>
+                                    <div class="columna-8-texto">
+                                        <h5>Mobile case register</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row icono-12-todo">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 icono-11-imagen">
+                                    <div class="columna-11-imagen">
+                                        <img src="img/portafolio-morado-icono-11.jpg" alt="Lealtad">
+                                    </div>
+                                    <div class="columna-11-texto">
+                                        <h5>Mobile Dristing</h5>
+                                    </div>
+                                </div>
+                                <div class="row icono-16-todo">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 icono-16-imagen">
+                                        <div class="columna-16-imagen">
+                                            <img src="img/portafolio-morado-icono-16.jpg" alt="Lealtad">
+                                        </div>
+                                        <div class="columna-16-texto">
+                                            <h5>Mobile recharge and activatión</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Seccion de portafolio morado icono 9,13 y 16-->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 portafolio-morado-icono-9-13-17">
+                            <div class="row icono-9-todo">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  icono-9-imagen">
+                                    <div class="columna-9-imagen">
+                                        <img src="img/portafolio-morado-icono-9.jpg" alt="Lealtad">
+                                    </div>
+                                    <div class="columna-9-texto">
+                                        <h5>Mobile Field Force fracking</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row icono-13-todo">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 icono-13-imagen">
+                                    <div class="columna-13-imagen">
+                                        <img src="img/portafolio-morado-icono-13.jpg" alt="Lealtad">
+                                    </div>
+                                    <div class="columna-13-texto">
+                                        <h5>Mobile OCR OMR Barcode OR code</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row icono-17-todo">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 icono-17-imagen">
+                                    <div class="columna-17-imagen">
+                                        <img src="img/portafolio-morado-icono-17.jpg" alt="Lealtad">
+                                    </div>
+                                    <div class="columna-17-texto">
+                                        <h5>Mobile Wallet and NFC</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     </section>
 
+    <!--Seccion de internet-->
+    <section id="internet">
+        
+        <div id="internet-todo">
+            <div class="container-fluid contenedor-internet">
+                <div class="row internet-fila">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 internet-imagen">
+                        <img src="img/internet-cielo-img.jpg">  
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 internet-contenido">
+                        <div class="container-fluid internet-contenido-contenedor">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <span class="internet-things-titulo">Intenet of things</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 internet-columna-connected">
+                                    <span>Every day things <br> get connected</span>
+                                    <img src="img/internet-cielo-icono-conexion.jpg">
+                                    <span>for smarter <br> tomorrow</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-18.jpg">
+                                    <span>Vehicle, asset person<br> & pet monitoring <br> & controlling</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-19.jpg">
+                                    <span>Building management</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-20.jpg">
+                                    <span>Everyday things</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-21.jpg">
+                                    <span>Agricultere <br> automation</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-22.jpg">
+                                    <span>Energy consuption</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-23.jpg">
+                                    <span>Telemedicine <br> & healthcare</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-24.jpg">
+                                    <span>M2M & wireless <br> sensor network</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-x col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-25.jpg">
+                                    <span>Security & surveillance</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-26.jpg">
+                                    <span>Smart homes & cities</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                    <img src="img/internet-cielo-icono-27.jpg">
+                                    <span>Embedded mobile</span>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row human-fila">
+                    <div class="container-fluid contenedor-human">
+                        <div class="row human-fila-interna">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 human-fila-imagen hidden-sm hidden-xs">
+                                <img src="img/internet-marino-img.jpg">  
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 human-contenido">
+                                <div class="container-fluid human-contenido-contenedor">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <span class="human-titulo">Human Machinine Interface</span>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <span class="human-subtitulo">Bridging real-word & digital world</span>
+                                            </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-28.jpg">
+                                            <span>Vernaculas display</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-29.jpg">
+                                            <span>Video and Image <br>Processing</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-30.jpg">
+                                            <span>SMS Interface</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-30.jpg">
+                                            <span>Biometric<br>Authentication</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-32.jpg">
+                                            <span>OMR Reader</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-33.jpg">
+                                            <span>Location</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-34.jpg">
+                                            <span>IVR and Dialer</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                                <img src="img/internet-marino-icono-35.jpg">
+                                                <span>Voice Interface</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-36.jpg">
+                                            <span>Natural User <br> Interface</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-37.jpg">
+                                            <span>Touch Interface</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                            <img src="img/internet-marino-icono-38.jpg">
+                                            <span>Brain Computer<br> Interface</span>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 internet-iconos">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <!--<div class="container-fluid internet-contenedor">
+
+                <div class="row internet-cielo">
+                    <div class="row internet-cielo-imagen-contenido">
+
+                        <div class="col-lg-10 internet-cielo-titulo-iconos">
+                            <div class="row internet-cielo-titulo">
+                                <div class="cielo-titulo">
+                                    <h3>Internet of things</h3>
+                                </div>
+                            </div>
+                            <div class="row internet-cielo-subtitulo">
+                                <div class="col-lg-2 internet-cielo-texto1">
+                                    <div class="cielo-titulo1">
+                                        Every day things<br>get connected
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 internet-cielo-img">
+                                    <div class="cielo-img">
+                                        <img src="img/internet-cielo-icono-conexion.jpg" alt="Lealtad">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 internet-cielo-texto2">
+                                    <div class="cielo-img">
+                                        for smater<br>tomorrow
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+        
+    </section>
+
+    <footer>
+        <!--Sección Contacto-->
+        <div id="contacto">
+            <div class="contacto-fondo fondo">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-sm-10 col-xs-7">
+                            <h1 class="contacto-titulo">Contacto</h1>
+                            <form action="#">
+                                <div class="mensaje-contenedor">
+                                    <div class="contacto-nombre">
+                                        Nombre <input type="text" name="name" class="contacto-control">
+                                    </div>
+                                    <div class="contacto-mensaje">
+                                        <span>Mensaje</span>
+                                            <textarea rows="3" name="mensaje" class="contacto-control"> </textarea>
+                                    </div>
+                                    <div class="contacto-boton">
+                                        <a class="btn btn-lg btn-transparent" href="#" role="button">Enviar</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery-3.2.1.min.js">
 

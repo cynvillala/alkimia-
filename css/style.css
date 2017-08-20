@@ -1,4 +1,6 @@
 /*Estilos para Alkimia*/
+
+
 /*========================================
             COLORES
 
@@ -8,190 +10,599 @@
 #91C499 verde
 #F5CB5C amarillo
 ==========================================*/
+
 body {
     font-family: "Quicksand", sans-serif;
 }
-html,body{
+
+html,
+body {
     height: 100%;
 }
+
+.fondo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*Estilo Menu
+===========================================*/
+
+.social-list {
+    padding-left: 0;
+    float: right;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 2px;
+    margin-top: 30px;
+}
+
+.social-icon {
+    font-size: 20px;
+}
+
+.social-icon i:hover {
+    color: #75657e;
+}
+
+.navbar-header {
+    background-color: #fff;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding: 0
+}
+
+.contenedor-links {
+    width: 100%;
+    height: 40px;
+    background: rgba(43, 42, 42, 0.7);
+    padding-left: 180px;
+}
+
+.contenedor-links li a {
+    color: #fff;
+    font-size: 13px;
+    padding-top: 8px;
+    font-size: 15px;
+}
+
+.contenedor-links li {
+    padding-right: 70px;
+}
+
+.contenedor-links li a:hover,
+.contenedor-links li a:focus {
+    color: #f1e7c1;
+    font-weight: 500;
+    background: none;
+}
+
+
 /*Estilo Index
 ===========================================*/
-#index{
+
+#index {
     height: 100%;
     margin: 0px;
 }
-#intro-fondo{
-    height: 100%; 
+
+#intro-fondo {
+    height: 100%;
     background-image: url("../img/intro-fondo.jpg");
-    background-repeat: no-repeat;
 }
-#intro-fondo h3{
- color: #fff;  
- font-size: 40px;
- font-weight: 400;
+
+#intro-fondo h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
 }
-#intro-fondo h2{
+
+#intro-fondo h2 {
     color: #fff;
     font-size: 80px;
-    font-weight: 700; 
-}   
-#intro-aire{
+    font-weight: 700;
+}
+
+#intro-aire {
     width: 100%;
     height: 100%;
 }
-#intro-contenido{
+
+#intro-contenido {
     padding: 21% 0 0 30%;
 }
-#cuadro{
-border: solid 1px #fff;
-float: right;
-position: absolute;
-transform: translate(325px, -45px);
+
+#cuadro {
+    border: solid 1px #fff;
+    float: right;
+    position: absolute;
+    transform: translate(325px, -45px);
 }
-#cuadro-contenido{
+
+#cuadro-contenido {
     margin: 10px;
-    background-color: rgba(199,199, 159, 0.4);
+    background-color: rgba(199, 199, 159, 0.4);
     text-align: center;
     padding: 20px;
 }
-#cuadro-contenido h3{
+
+#cuadro-contenido h3 {
     margin: 0;
 }
-#cuadro-contenido h2{
+
+#cuadro-contenido h2 {
     margin: 0;
 }
+
 
 /*Estilo Nosotros
 ===========================================*/
-#nosotros{
-   height: 100%;
-   margin: 0;
-   padding: 0px;
-}
-#nosotros-todo{
-  height: 100%;
+
+#nosotros {
+    height: 100%;
+    margin: 0;
+    padding: 0px;
 }
 
-.nosotros-imagen{
-    background-image: url("../img/imagen1-qs.jpg");
-    background-repeat: no-repeat;
-    margin: 0px;
-    
-}
-.nosotros-contenedor{
+#nosotros-todo {
     height: 100%;
 }
-.nosotros-fila-imagen{
+
+.nosotros-imagen {
+    background-image: url("../img/imagen1-qs.jpg");
+}
+
+.nosotros-contenedor {
+    height: 100%;
+}
+
+.nosotros-fila-imagen {
     height: 50%;
 }
-.nosotros-imagen{
-    height: 100%;  
-}
-.nosotros-descripciones{
-    height: 50%; 
-}
-.norotros-columna{
+
+.nosotros-imagen {
     height: 100%;
 }
-.columna-descripcion{
-    text-align:justify;
+
+.columna-descripcion {
+    text-align: justify;
     padding: 15px 25px 0px 25px;
     color: #5d5d5d
 }
-.columna-imagen{
-    text-align:center;
-}
 
-#nosotros-todo h1{
+.columna-descripcion p strong {
     color: #423346;
     font-size: 16px;
     font-weight: 700;
     margin: 0;
 }
-#nosotros-todo h2{
+
+.bold-lila {
     color: #9fa6bd;
     font-size: 16px;
     font-weight: 700;
     margin: 0;
 }
 
+.columna-imagen {
+    padding-top: 0;
+    text-align: center;
+}
+
+.columna-imagen img {
+    height: 130px;
+    width: 130px;
+}
+
+
 /*Estilo Misión
 ===========================================*/
-#mision{
+
+#mision {
     height: 100%;
     margin: 0;
     padding: 0px;
- }
-#mision-todo{
-  height: 100%;
-  background-image: url("../img/mision-fondo-2.jpg");
-  background-repeat: no-repeat;
 }
-#mision-contenedor{
-    height: 100%; 
-    
+
+#mision-todo {
+    height: 100%;
+    background-image: url("../img/mision-fondo-2.jpg");
 }
-.columna-texto{
-    text-align:justify;
+
+#mision-contenedor {
+    height: 100%;
+}
+
+.columna-texto {
+    text-align: justify;
     padding: 200px 25px 0px 80px;
     color: #5d5d5d
 }
-#mision-todo h2{
+
+#mision-todo h2 {
     color: #5d5d5d;
     font-size: 20px;
     font-weight: 300;
     margin: 0;
 }
-.columna-circulo{
-    text-align:justify;
+
+.columna-circulo {
+    text-align: justify;
     padding: 150px 25px 0px 80px;
 }
-.columna-geometria{
-    padding: 70px 25px 0px 80px;
+
+.columna-geometria {
+    float: left;
+    padding-left: 70px;
 }
-.columna-palabras{
-    padding: 80px 0px 0px 0px;
+
+.columna-geometria img {
+    width: 200px;
+    height: 300px;
+}
+
+.columna-palabras {
     color: #5d5d5d;
+    font-weight: 400;
+    font-size: 36px;
+    float: right;
+    padding-left: 10px;
+}
+
+.mision-izquierda-abajo {
+    padding: 30px 0px 0px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/*Estilo Portafolio
+===========================================*/
+
+#portafolio {
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+}
+
+#portafolio-todo {
+    height: 100%;
+}
+
+.portafolio-contenedor {
+    height: 100%;
+}
+
+
+/*Estilo Portafolio verde
+===========================================*/
+
+.portafolio-verde {
+    background-color: #daf1f3;
+    height: 60%;
+}
+
+.verde-embedded-movile h3 {
+    color: #64999b;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 110px 0px 0px 0px;
+}
+
+.verde-embedded-movile h2 {
+    color: #86cfd7;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+}
+
+.portafolio-verde-icono-1-4-7-todo {
+    padding: 155px 10px 0px 0px;
+}
+
+.portafolio-verde-imagen-top {
+    height: 100%;
+}
+
+
+/*Estilo Portafolio morado
+===========================================*/
+
+.portafolio-morado {
+    background-color: #d5d5de;
+    height: 40%;
+}
+
+.morado-mobile-cloud h3 {
+    color: #57536e;
     font-weight: 400;
     font-size: 40px;
 }
 
-/*Estilo Portafolio
+.morado-mobile-cloud h2 {
+    color: #737091;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: left;
+    margin: 0;
+}
+
+.portafolio-morado-icono-8-12-16 {
+    padding: 15px 0px 0px 0px;
+}
+
+.portafolio-morado-icono-9-13-17 {
+    padding: 15px 0px 0px 0px;
+}
+
+.portafolio-verde-1 {
+    color: #5d5d5d;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    height: 100%;
+}
+
+.portafolio-morado-1 {
+    color: #5d5d5d;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.columna-verde-imagen {
+    height: 100%;
+}
+
+.columna-verde-imagen img {
+    height: 100%;
+}
+
+.columna-linea-imagen img {
+    padding-top: 145px;
+    padding-left: 40px;
+}
+
+.columna-morado-linea {
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+.columna-1-texto {
+    padding: 17px 0px 0px 0px;
+}
+
+.columna-2-texto {
+    padding: 17px 0px 0px 0px;
+}
+
+.columna-3-texto {
+    padding: 17px 0px 0px 0px;
+}
+
+.columna-4-texto {
+    padding: 17px 0px 0px 0px;
+}
+
+.columna-5-texto {
+    padding: 17px 0px 0px 0px;
+}
+
+.columna-6-texto {
+    padding: 17px 0px 0px 0px;
+}
+
+.columna-7-texto {
+    padding: 17px 0px 0px 0px;
+}
+
+.morado-mobile-cloud {
+    text-align: left;
+}
+
+
+/*Estilo Internet todo
 ===========================================*/
-#portafolio{
+
+#internet {
     height: 100%;
     margin: 0;
     padding: 0px;
- }
-#portafolio-todo{
-  height: 100%;
+    margin: 0px;
 }
-#portafolio-contenedor{
-    height: 100%; 
-}   
-.portafolio-verde{
-    background-color: #daf1f3;
+
+#internet-todo {
+    height: 100%;
+    width: 100%;
 }
-.verde-embedded-movile h3{
-    color: #64999b;
+
+.contenedor-internet {
+    height: 100%;
+    padding-left: 0;
+}
+
+.internet-fila {
+    height: 60%;
+}
+
+.internet-imagen {
+    height: 100%;
+}
+
+.internet-imagen img {
+    height: 100%;
+}
+
+.internet-things-titulo {
+    color: #2f6bb4;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.internet-columna-connected span {
+    display: inline-block;
+}
+
+.internet-columna-connected img {
+    display: inline-block;
+}
+
+.internet-columna-connected {
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+.internet-iconos span {
+    display: inline-block;
+}
+
+.internet-iconos img {
+    display: inline-block;
+}
+
+.internet-iconos * {
+    vertical-align: middle;
+}
+
+.internet-iconos {
+    margin-top: 0px;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.internet-contenido {
+    background-color: #ebf4fb;
+    height: 100%;
+}
+
+.internet-contenido-contenedor {
+    padding-top: 120px;
+}
+
+.internet-columna-connected * {
+    vertical-align: top;
+}
+
+.human-fila {
+    height: 40%;
+    background-color: #d2dce5;
+}
+
+.human-fila-imagen img {
+    height: 220px;
+    padding-left: 140px;
+    padding-top: 30px;
+}
+
+.human-subtitulo {
+    color: #6c8aa2;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.human-titulo {
+    color: #415d75;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/*Estilo Internet cielo
+===========================================*/
+
+.internet-cielo {
+    background-color: #ebf4fc;
+}
+
+.cielo-titulo h3 {
+    color: #2a6eb6;
     font-weight: 400;
     font-size: 40px;
-    padding: 170px 0px 0px 0px;
+    padding: 120px 0px 0px 50px;
 }
-.verde-embedded-movile h2{
-    color: #86cfd7;
-    font-weight: 300;
-    font-size: 40px;
-    text-align:left;
-    margin: 0;
+
+
+/*Estilo Contacto
+===========================================*/
+
+.contacto-fondo {
+    background-image: url("../img/contacto-fondo.jpg");
 }
-#potafolio-todo h6{
+
+.contacto-titulo {
     color: #5d5d5d;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 18px 0px 0px 0px;
-    text-align:left;
+    padding: 130px 0px 0px 200px;
 }
-.portafolio-verde-icono-1-4-7-todo{
-    padding: 200px 0px 0px 0px; 
+
+.contacto-nombre {
+    color: #5d5d5d;
+    padding: 0px 0px 0px 200px;
+    font-size: 21px;
+    display: inline-block;
+}
+
+.contacto-control {
+    margin: 5px;
+    width: 300px;
+    border: none;
+}
+
+.contacto-mensaje {
+    color: #5d5d5d;
+    padding: 0px 0px 0px 200px;
+    font-size: 21px;
+    display: inline-block;
+}
+
+.contacto-mensaje-mensaje {
+    padding-top: 0px;
+}
+
+.contacto-mensaje span {
+    display: inline-block;
+    height: 100%;
+    color: #5d5d5d;
+    font-size: 21px;
+    font-weight: 0 !important;
+}
+
+.contacto-mensaje textarea {
+    display: inline-block
+}
+
+.contacto-mensaje * {
+    vertical-align: top;
+}
+
+.contacto-boton {
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 200px; 
+}
+
+
+.mensaje-contenedor {
+    padding-bottom: 200px;
+}
+
+.btn-transparent {
+    color: #5d5d5d;
+}
+
+.btn-transparent:hover {
+    color: #000000;
 }
