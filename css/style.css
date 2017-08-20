@@ -265,55 +265,6 @@ body {
 }
 
 
-/*Estilo Portafolio
-===========================================*/
-
-#portafolio {
-    margin: 0;
-    padding: 0px;
-    height: 100%;
-}
-
-#portafolio-todo {
-    height: 100%;
-}
-
-.portafolio-contenedor {
-    height: 100%;
-}
-
-
-/*Estilo Portafolio verde
-===========================================*/
-
-.portafolio-verde {
-    background-color: #daf1f3;
-    height: 60%;
-}
-
-.verde-embedded-movile h3 {
-    color: #64999b;
-    font-weight: 400;
-    font-size: 40px;
-    padding: 110px 0px 0px 0px;
-}
-
-.verde-embedded-movile h2 {
-    color: #86cfd7;
-    font-weight: 300;
-    font-size: 40px;
-    text-align: left;
-    margin: 0;
-}
-
-.portafolio-verde-icono-1-4-7-todo {
-    padding: 155px 10px 0px 0px;
-}
-
-.portafolio-verde-imagen-top {
-    height: 100%;
-}
-
 
 /*Estilo Portafolio morado
 ===========================================*/
@@ -323,92 +274,129 @@ body {
     height: 40%;
 }
 
-.morado-mobile-cloud h3 {
+.portafolio-titulo-morado {
     color: #57536e;
     font-weight: 400;
     font-size: 40px;
+    padding-left: 0px;
+    padding-top: 50px;
 }
 
-.morado-mobile-cloud h2 {
+.portafolio-subtitulo-morado {
     color: #737091;
     font-weight: 300;
-    font-size: 21px;
+    font-size: 19px;
+    text-align: left;
+    margin: 0;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
+
+/*Nuevo Portafolio*/
+#portafolio {
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+#portafolio-todo {
+    height: 100%;
+    width: 100%;
+}
+
+.portafolio-contenedor {
+    height: 100%;
+    padding-left: 0;
+}
+
+.portafolio-fila {
+    background-color: #d9f1f3; 
+    height: 60%;
+}
+
+.portafolio-imagen {
+    height: 100%;
+}
+
+.portafolio-imagen img {
+    max-width: 100%;
+    height: 100%;
+}
+.portafolio-contenido {
+    height: 100%;
+}
+.portafolio-iconos span {
+    display: inline-block;
+}
+
+.portafolio-iconos img {
+    display: inline-block;
+}
+
+.portafolio-iconos * {
+    vertical-align: middle;
+}
+
+.portafolio-iconos {
+    margin-top: 0px;
+    padding-left: 0;
+    font-size: 12px;
+}
+.portafolio-titulo {
+    color: #64999b;
+    font-weight: 400;
+    font-size: 35px;
+    padding: 110px 0px 0px 0px;
+}
+
+.portafolio-subtitulo {
+    color: #86cfd7;
+    font-weight: 300;
+    font-size: 35px;
     text-align: left;
     margin: 0;
 }
-
-.portafolio-morado-icono-8-12-16 {
-    padding: 15px 0px 0px 0px;
+.portafolio-contenido-contenedor {
+    padding-top: 140px;
+    padding-left: 0;
 }
-
-.portafolio-morado-icono-9-13-17 {
-    padding: 15px 0px 0px 0px;
-}
-
-.portafolio-verde-1 {
-    color: #5d5d5d;
-    text-align: left;
-    font-weight: 500;
-    font-size: 16px;
-    height: 100%;
-}
-
-.portafolio-morado-1 {
-    color: #5d5d5d;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.columna-verde-imagen {
-    height: 100%;
-}
-
-.columna-verde-imagen img {
-    height: 100%;
-}
-
-.columna-linea-imagen img {
-    padding-top: 145px;
-    padding-left: 40px;
-}
-
-.columna-morado-linea {
-    padding-top: 50px;
+.portafolio-helathcase{
     padding-left: 15px;
+
 }
 
-.columna-1-texto {
-    padding: 17px 0px 0px 0px;
+.portafolio-fracking{
+    padding-right: 0px;
 }
 
-.columna-2-texto {
-    padding: 17px 0px 0px 0px;
+.portafolio-divisor{
+    padding-top:180px; 
 }
 
-.columna-3-texto {
-    padding: 17px 0px 0px 0px;
+.morado-divisor{
+    padding-top:40px; 
+    padding-left:150px;
 }
 
-.columna-4-texto {
-    padding: 17px 0px 0px 0px;
+.mobile-fila {
+    height: 40%;
+    background-color: #d6d4df;
 }
 
-.columna-5-texto {
-    padding: 17px 0px 0px 0px;
+.mobile-contenido-contenedor{
+    padding-left: 0;
 }
 
-.columna-6-texto {
-    padding: 17px 0px 0px 0px;
+.mobile-contenedor{
+    height: 100%;
 }
 
-.columna-7-texto {
-    padding: 17px 0px 0px 0px;
+.mobile-contenido{
+    padding-top:20px;
 }
 
-.morado-mobile-cloud {
-    text-align: left;
-}
 
 
 /*Estilo Internet todo
@@ -496,6 +484,11 @@ body {
 .human-fila {
     height: 40%;
     background-color: #d2dce5;
+}
+
+.human-contenido-contenedor{
+    padding-left: 0;
+    padding-top: 10px;
 }
 
 .human-fila-imagen img {
@@ -590,7 +583,7 @@ body {
 
 .contacto-boton {
     float: right;
-    padding-right: 50px;
+    padding-right: 60px;
     padding-bottom: 200px; 
 }
 

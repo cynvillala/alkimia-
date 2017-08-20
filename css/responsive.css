@@ -69,73 +69,30 @@
         padding: 150px 0 0 0;
     }
 
-    .verde-embedded-movile h3{
-        font-size:30px;
-        padding-top: 90px;
+    /*Portafolio*/
+    .portafolio-contenido-contenedor{
+        padding-top:150px;
     }
 
-    .verde-embedded-movile h2{
-        font-size:30px;
+    .portafolio-subtitulo{
+        font-size: 30px;
     }
 
-    .columna-1-imagen img,
-    .icono-2-imagen img,
-    .icono-3-imagen img,
-    .columna-4-imagen img,
-    .icono-5-imagen img,
-    .icono-6-imagen img,
-    .columna-7-imagen img{
+    .portafolio-iconos img{
         width: 50px;
         height: 50px;
     }
 
-    .icono-16-imagen,
-    .icono-17-imagen{
-        margin-top: 12px;
+    .portafolio-divisor{
+        padding-top: 150px;
     }
 
-    .columna-1-texto,
-    .columna-2-texto,
-    .columna-3-texto,
-    .columna-4-texto,
-    .columna-5-texto,
-    .columna-6-texto,
-    .columna-7-texto{
-        padding-top: 10px;
-        padding-left: 10px;
+    .portafolio-subtitulo-morado{
+        font-size: 17px;
     }
 
-    .columna-1-texto h5,
-    .columna-2-texto h5,
-    .columna-3-texto h5,
-    .columna-4-texto h5,
-    .columna-5-texto h5,
-    .columna-6-texto h5,
-    .columna-7-texto h5,
-    .columna-8-texto h5,
-    .columna-9-texto h5,
-    .texto-10 h5,
-    .texto-11 h5,
-    .columna-11-texto h5,
-    .columna-12-texto h5,
-    .columna-13-texto h5,
-    .texto-14 h5,
-    .texto-15 h5,
-    .columna-16-texto h5,
-    .columna-17-texto h5{
-        font-size: 12px;
-    }
-
-    .portafolio-verde-icono-1-4-7-todo{
-        padding: 145px, 10, 0, 0;
-    }
-
-    .morado-mobile-cloud h3{
-        font-size:30px;
-    }
-
-    .morado-mobile-cloud h3{
-        font-size:17px;
+    .portafolio-titulo-morado{
+        font-size: 35px;
     }
 
     .internet-contenido-contenedor{
@@ -165,6 +122,10 @@
 
     .contenedor-human{
         margin-top:30px;
+    }
+
+    .contacto-boton{
+        padding-right: 30px;
     }
 
 }
@@ -205,95 +166,46 @@
         padding: 150px 0 0 0;
     }
 
-    .verde-embedded-movile h3{
-        font-size:20px;
+
+    /*Portafolio*/
+    .portafolio-contenido-contenedor{
+        padding-top:80px;
+    }
+
+    .portafolio-titulo{
+        font-size: 30px;
+    }
+
+    .portafolio-subtitulo{
+        font-size: 24px;
+    }
+
+    .portafolio-iconos img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .portafolio-iconos{
+        margin-top:5px;
+    }
+
+    .portafolio-divisor{
         padding-top: 90px;
-        padding-left: 20px;
     }
 
-    .verde-embedded-movile h2{
-        font-size:20px;
-        padding-left: 20px;
+    
+
+    .portafolio-subtitulo-morado{
+        font-size: 17px;
     }
 
-    .columna-1-imagen img,
-    .icono-2-imagen img,
-    .icono-3-imagen img,
-    .columna-4-imagen img,
-    .icono-5-imagen img,
-    .icono-6-imagen img,
-    .columna-7-imagen img{
-        width: 50px;
-        height: 50px;
+    .portafolio-titulo-morado{
+        font-size: 35px;
     }
 
-    .icono-16-imagen,
-    .icono-17-imagen{
-        margin-top: 12px;
-    }
-
-    .columna-1-texto,
-    .columna-2-texto,
-    .columna-3-texto,
-    .columna-4-texto,
-    .columna-5-texto,
-    .columna-6-texto,
-    .columna-7-texto{
-        padding-top: 10px;
-        padding-left: 10px;
-    }
-
-    .columna-1-texto h5,
-    .columna-2-texto h5,
-    .columna-3-texto h5,
-    .columna-4-texto h5,
-    .columna-5-texto h5,
-    .columna-6-texto h5,
-    .columna-7-texto h5,
-    .columna-8-texto h5,
-    .columna-9-texto h5,
-    .texto-10 h5,
-    .texto-11 h5,
-    .columna-11-texto h5,
-    .columna-12-texto h5,
-    .columna-13-texto h5,
-    .texto-14 h5,
-    .texto-15 h5,
-    .columna-16-texto h5,
-    .columna-17-texto h5{
-        font-size: 11px;
-    }
-
-    .portafolio-verde-icono-1-4-7-todo{
-        padding: 145px, 10, 0, 0;
-    }
-    .icono-2,
-    .icono-5,
-    .icono-3,
-    .icono-6,
-    .icono-10,
-    .icono-11,
-    .icono-14,
-    .icono-15,
-    .icono-8-imagen,
-    .icono-9-imagen,
-    .icono-12-imagen,
-    .icono-13-imagen,
-    .icono-16-imagen,
-    .icono-17-imagen{
-        padding-left: 0px;
-    }
-
-    .morado-mobile-cloud h3{
-        font-size:25px;
-    }
-
-    .morado-mobile-cloud h2{
-        font-size:14px;
-    }
 
     .internet-contenido-contenedor{
-        padding-top: 100px;
+        padding-top: 115px;
     }
 
     .internet-things-titulo{
