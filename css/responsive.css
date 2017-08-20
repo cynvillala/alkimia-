@@ -193,14 +193,16 @@
         padding-top: 90px;
     }
 
-    
+    .morado-divisor{
+        padding-left: 30px;
+    }
 
     .portafolio-subtitulo-morado{
         font-size: 17px;
     }
 
     .portafolio-titulo-morado{
-        font-size: 35px;
+        font-size: 30px;
     }
 
 
