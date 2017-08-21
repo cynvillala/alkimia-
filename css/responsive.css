@@ -13,9 +13,7 @@
 /*Medium devices (Landscape Tablets & medium desktops)*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    #intro-fondo h3 {
-        color: green;
-    }
+    
     .contenedor-links {
         width: 100%;
         height: 40px;
@@ -133,9 +131,6 @@
 /*Small devices (Portrait Tablets & small desktops)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #intro-fondo h3 {
-        color: orange;
-    }
 
     .contenedor-links {
         width: 100%;
@@ -552,7 +547,6 @@
 
 @media(max-width:480px) {
     #intro-fondo h3 {
-        color: yellow;
         font-size: 20px;
         font-weight: 400;
     }
@@ -787,9 +781,4 @@
 /*Extra small devices (Smaller devices)*/
 
 @media(max-width:320px) {
-    #intro-fondo h3 {
-        color: pink;
-        font-size: 40px;
-        font-weight: 400;
-    }
 }
