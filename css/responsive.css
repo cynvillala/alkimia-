@@ -6,7 +6,7 @@
 /*Large devices (Desktops & Laptops) */
 
 @media (min-width: 1200px) {
- 
+   
 }
 
 
@@ -15,7 +15,6 @@
 @media (min-width: 992px) and (max-width: 1199px) {
     #intro-fondo h3 {
         color: green;
-        
     }
     .contenedor-links {
         width: 100%;
@@ -40,7 +39,7 @@
     }
 
     .navbar-brand img{
-        width: 130px;
+        width: 100px;
     }
 /* nosotros*/
     .columna-descripcion p{
@@ -136,6 +135,41 @@
 @media (min-width: 768px) and (max-width: 991px) {
     #intro-fondo h3 {
         color: orange;
+    }
+
+    .contenedor-links {
+        width: 100%;
+        height: 40px;
+        background: rgba(43, 42, 42, 0.7);
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .contenedor-links li {
+        padding-right: 0px;
+    }
+
+    .contenedor-links li a{
+        
+        font-size: 14px;
+        margin-right: 40px;
+    }
+
+    .social-list li{
+        margin-top: 10px;
+        float: right;
+    }
+
+    .menu-geometria{
+        padding: 0;
+    }
+
+    .menu-geometria img{
+        width: 70%;
+    }
+
+    .navbar-brand img{
+        width: 130px;
     }
 
     /*intro*/
@@ -263,6 +297,45 @@
     #intro-fondo h3 {
         color: #fff;
         font-size: 25px;
+    }
+
+    /*menu*/
+    .social-list li{
+        margin-top: 0px;
+    }
+
+    .navbar-brand img{
+        width: 90px;
+    }
+
+    .navbar-brand{
+        height: auto;
+    }
+
+    .contenedor-links{
+        height: auto;
+        float: left;
+        margin-top:0px;
+        padding-left: 5px;
+        width: 100%;
+    }
+
+    .navbar-toggle {
+        background-color: #fff;
+        border: 1px solid black;
+        border-radius: 0;
+    }
+    
+    .navbar-toggle .icon-bar {
+        background-color:black;
+    }
+    
+    .navbar-collapse {
+        max-height: none !important;
+    }
+
+    .collapse-button{
+        margin: 0px;
     }
 
     /*intro*/
@@ -461,9 +534,14 @@
         font-weight: 400;
     }
 
+    .social-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     /*intro*/
     #intro-contenido{
-        padding: 40% 0 0 5%;
+        padding: 50% 0 0 5%;
     }
     .columna-descripcion p{
         font-size: 12px;
@@ -471,6 +549,11 @@
 
     #cuadro{
         transform: translate(160px, -35px);
+    }
+
+    #cuadro-contenido{
+        padding: 15px;
+        margin: 5px;
     }
 
     /*mision*/
@@ -666,11 +749,11 @@
     }
 
     .human-titulo{
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .human-subtitulo{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     
