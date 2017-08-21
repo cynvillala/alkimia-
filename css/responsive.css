@@ -322,12 +322,12 @@
 
     .navbar-toggle {
         background-color: #fff;
-        border: 1px solid black;
+        border: 1px solid #75657e;
         border-radius: 0;
     }
     
     .navbar-toggle .icon-bar {
-        background-color:black;
+        background-color:#75657e;
     }
     
     .navbar-collapse {
@@ -335,7 +335,8 @@
     }
 
     .collapse-button{
-        margin: 0px;
+        margin-top: 5px;
+        margin-bottom: 0px;
     }
 
     /*intro*/
@@ -436,6 +437,7 @@
 
     .portafolio-subtitulo-morado{
         font-size: 14px;
+        padding-top:0px;
     }
 
     .portafolio-titulo-morado{
@@ -541,7 +543,7 @@
 
     /*intro*/
     #intro-contenido{
-        padding: 50% 0 0 5%;
+        padding: 45% 0 0 5%;
     }
     .columna-descripcion p{
         font-size: 12px;
@@ -647,7 +649,7 @@
     
 
     .portafolio-iconos{
-        margin-top:5px;
+        margin-top:0px;
     }
 
     .portafolio-divisor{
