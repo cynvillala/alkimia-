@@ -488,7 +488,7 @@ body {
 
 .human-contenido-contenedor{
     padding-left: 0;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .human-fila-imagen img {
@@ -512,6 +512,10 @@ body {
     font-size: 25px;
     margin-top: 0;
     padding-top: 0;
+}
+
+.contenedor-human{
+    margin-top: 5px !important;
 }
 
 /*Estilo Internet cielo

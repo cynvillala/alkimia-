@@ -138,6 +138,7 @@
         color: orange;
     }
 
+    /*intro*/
     #intro-contenido{
         padding: 21% 0 0 10%;
     }
@@ -145,6 +146,7 @@
         font-size: 12px;
     }
 
+    /*mision*/
     .bold-lila{
         font-size: 14px;
     }
@@ -205,7 +207,7 @@
         font-size: 30px;
     }
 
-
+    /*internet*/
     .internet-contenido-contenedor{
         padding-top: 115px;
     }
@@ -247,9 +249,11 @@
     .human-contenido{
         padding-left: 0px;
     }   
+    /*contacto*/
     .contacto-boton {
         padding-right: 2px;
         padding-bottom: 350px;
+}
 }
 
 
@@ -257,10 +261,194 @@
 
 @media(max-width:767px) {
     #intro-fondo h3 {
-        color: blue;
-        font-size: 40px;
-        font-weight: 400;
+        color: #fff;
+        font-size: 25px;
     }
+
+    /*intro*/
+    #intro-contenido{
+        padding: 30% 0 0 5%;
+    }
+    .columna-descripcion p{
+        font-size: 12px;
+    }
+
+    #cuadro{
+        transform: translate(200px, -35px);
+    }
+
+    /*mision*/
+    
+    .columna-descripcion{
+        padding: 15px 0 0 0;
+        margin-right: 5px;
+    }
+
+    .columna-descripcion p{
+        font-size: 8px;
+    }
+
+    .columna-descripcion p strong{
+        font-size: 12px;
+    }
+    
+    .bold-lila{
+        font-size: 10px;
+    }
+    .columna-palabras{
+        font-size:12px;
+    }
+
+    .columna-texto{
+        padding: 120px 0 0 25px;
+    }
+
+    #mision-todo h2{
+        font-size:16px;
+    }
+
+    .columna-geometria{
+        padding-left: 20px;
+    }
+    
+    .columna-geometria img{
+        width: 80px;
+        height: 110px;
+    }
+
+    .contenedor-circulo{
+        padding: 0;
+    }
+
+
+    .columna-circulo img{
+        height: 350px;
+        width: 350px;
+    }
+
+    .columna-circulo{
+        padding: 150px 0 0 0;
+    }
+
+
+    /*Portafolio*/
+    .portafolio-contenido-contenedor{
+        padding-top:80px;
+    }
+
+    .portafolio-titulo{
+        font-size: 30px;
+    }
+
+    .portafolio-subtitulo{
+        font-size: 24px;
+    }
+
+    .portafolio-iconos img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .portafolio-iconos{
+        margin-top:5px;
+    }
+
+    .portafolio-divisor{
+        padding-top: 90px;
+    }
+
+    .morado-divisor{
+        padding-left: 30px;
+    }
+
+    .portafolio-subtitulo-morado{
+        font-size: 14px;
+    }
+
+    .portafolio-titulo-morado{
+        font-size: 30px;
+    }
+
+    .mobile-contenido{
+        padding-top: 0;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+    .mobile-contenedor{
+        padding-right: 0px;
+        }      
+
+    
+
+    /*internet*/
+    .internet-contenido-contenedor{
+        padding-top: 80px;
+    }
+
+    .internet-things-titulo{
+        font-size: 25px;
+    }
+
+    .internet-columna-connected span{
+        font-size: 14px;
+    }
+
+    .internet-contenido{
+        padding-left: 40px;
+    }
+
+    .internet-columna-connected{
+        margin-bottom: 20px;
+    }
+
+    .internet-iconos img{
+        height: 40px;
+        width: 40px;
+    }
+    
+
+    .internet-iconos span{
+        font-size: 10px;
+    }
+
+    .internet-iconos{
+        padding-right: 0 !important;
+    }
+
+    .contenedor-human{
+        margin-top:30px;
+    }
+
+    .human-contenido-contenedor{
+        padding-left: 90px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .human-contenido{
+        padding-left: 0px;
+    }   
+    /*contacto*/
+    .contacto-boton {
+        padding-right: 2px;
+        padding-bottom: 350px;
+    }
+    .contacto-titulo{
+        padding: 130px 0 0 50px;
+    }
+
+    .contacto-control{
+        margin: 0;
+    }
+
+    .contacto-nombre,
+    .contacto-mensaje{
+        padding-left: 50px;
+        margin: 0px;
+    }
+
+    
+
 }
 
 
