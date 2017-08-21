@@ -492,12 +492,17 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+
+    .columna-imagen img{
+        width: 85px;
+        height: 85px;
+    }
     
     .bold-lila{
         font-size: 8px;
     }
     .columna-palabras{
-        font-size:7px;
+        font-size:10px;
     }
 
     .columna-texto{
@@ -509,7 +514,7 @@
     }
 
     .columna-geometria{
-        padding-left: 20px;
+        padding-left: 0px;
     }
     
     .columna-geometria img{
@@ -538,11 +543,11 @@
     }
 
     .portafolio-titulo{
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .portafolio-subtitulo{
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .portafolio-iconos img{
@@ -584,7 +589,7 @@
 
     /*internet*/
     .internet-contenido-contenedor{
-        padding-top: 80px;
+        padding-top: 50px;
     }
 
     .internet-things-titulo{
@@ -601,6 +606,7 @@
 
     .internet-columna-connected{
         margin-bottom: 20px;
+        font-size: 12px;
     }
 
     .internet-iconos img{
@@ -646,6 +652,10 @@
     .contacto-mensaje{
         padding-left: 50px;
         margin: 0px;
+    }
+
+    .human-title{
+        font-size: 22px;
     }
 
     
