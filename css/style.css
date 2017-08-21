@@ -333,6 +333,8 @@ body {
 
 .portafolio-iconos img {
     display: inline-block;
+    width: 60px;
+    height: 60px;   
 }
 
 .portafolio-iconos * {
@@ -456,6 +458,8 @@ body {
 
 .internet-iconos img {
     display: inline-block;
+    width: 50px;
+    height: 50px;
 }
 
 .internet-iconos * {
