@@ -235,6 +235,7 @@
 
     .portafolio-subtitulo-morado{
         font-size: 17px;
+        padding-top:0px;
     }
 
     .portafolio-titulo-morado{
@@ -661,7 +662,8 @@
     }
 
     .portafolio-subtitulo-morado{
-        font-size: 14px;
+        font-size: 10px;
+        padding-top:0px;
     }
 
     
