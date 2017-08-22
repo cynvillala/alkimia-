@@ -122,7 +122,7 @@
     }
 
     .contacto-boton{
-        padding-right: 30px;
+        padding-right: 100px;
     }
 
 }
@@ -281,7 +281,7 @@
     }   
     /*contacto*/
     .contacto-boton {
-        padding-right: 2px;
+        padding-right: 30px;
         padding-bottom: 350px;
 }
 }

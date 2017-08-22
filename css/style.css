@@ -547,7 +547,7 @@ body {
 
 .contacto-titulo {
     color: #5d5d5d;
-    padding: 130px 0px 0px 200px;
+    padding: 140px 0px 0px 180px;
 }
 
 .contacto-nombre {
@@ -561,6 +561,7 @@ body {
     margin: 5px;
     width: 300px;
     border: none;
+    font-size: 14px;
 }
 
 .contacto-mensaje {
@@ -592,7 +593,7 @@ body {
 
 .contacto-boton {
     float: right;
-    padding-right: 60px;
+    padding-right: 100px;
     padding-bottom: 200px; 
 }
 
@@ -603,6 +604,7 @@ body {
 
 .btn-transparent {
     color: #5d5d5d;
+    background: none;
 }
 
 .btn-transparent:hover {
